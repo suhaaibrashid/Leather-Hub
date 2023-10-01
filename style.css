@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.back img {
+    width: 100%;
+    height: 3100px;
+    position: absolute;
+    z-index: -1;
+}
+
+.navbarone {
+    background-color: white;
+    border: 2px solid white;
+    width: 100%;
+    height: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarone .logo img {
+    width: 300px;
+    height: 115px;
+}
+
+.navbarone .cat {
+    border: 2px solid white;
+    width: 500px;
+    height: 115px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cat a {
+    color: hsl(160.48, 55.26%, 55.29%);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.cat a:hover {
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: black;
+}
+
+.bar input {
+    border: 2px solid hsl(160.48, 55.26%, 55.29%);
+    width: 300px;
+    height: 30px;
+}
+
+.bar input:placeholder-shown {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+}
+
+.bar button {
+    background-color: hsl(160.48, 55.26%, 55.29%);
+    color: white;
+    border: 2px solid hsl(160.48, 55.26%, 55.29%);
+    width: 60px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.navbarone .cart button {
+    background-color: hsl(40.71, 87.5%, 87.45%);
+    color: hsl(160.48, 55.26%, 55.29%);
+    border: 2px solid hsl(160.48, 55.26%, 55.29%);
+    width: 75px;
+    height: 45px;
+    font-size: 30px;
+    font-weight: 100;
+    border-radius: 16px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.bodyone {
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.partone {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.partone .one h1 {
+    color: white;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: hsl(40.71, 87.5%, 87.45%);
+}
+
+.partone .two button {
+    background-color: hsl(160.48, 55.26%, 55.29%);
+    color: white;
+    border: 2px solid hsl(160.48, 55.26%, 55.29%);
+    border-radius: 16px;
+    width: 120px;
+    height: 50px;
+}
+
+.partone .two a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.parttwo {
+    width: 100%;
+    height: 425px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 15px;
+}
+
+.box {
+    background-color: white;
+    border: 3px solid hsl(40.71, 87.5%, 87.45%);
+    width: 295px;
+    height: 365px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.box:hover {
+    box-shadow: -1px 0px 15px 4px rgba(78, 204, 163, 0.55);
+    -webkit-box-shadow: -1px 0px 15px 4px rgba(78, 204, 163, 0.55);
+    -moz-box-shadow: -1px 0px 15px 4px rgba(78, 204, 163, 0.55);
+}
+
+.box .text {
+    text-align: center;
+    height: 130px;
+    width: 295px;
+    padding: 7px 7px;
+    font-size: 15px;
+    background-color: hsl(40.71, 87.5%, 87.45%);
+}
+
+.box .text h3 {
+    font-size: 23px;
+    font-weight: 800;
+    color: hsl(160.48, 55.26%, 55.29%);
+}
+
+.box .text h5 i {
+    font-size: 18px;
+    font-weight: 800;
+    color: gold;
+}
+
+.box .text h5 {
+    font-size: 17px;
+    font-weight: 200;
+    color: white;
+    margin-top: 7px;
+}
+
+.box .text h4 {
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    margin-top: 7px;
+}
+
+.footnote {
+    width: 100%;
+    height: 300px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    margin-top: 40px;
+    padding: 15px 15px;
+}
+
+.footnote h3 {
+    color: hsl(160.48, 55.26%, 55.29%);
+    font-size: 18px;
+}
+
+.footnote .about {
+    width: 350px;
+    height: auto;
+    padding: 15px 15px;
+}
+
+.footnote .about p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.footnote .info {
+    width: 350px;
+    height: auto;
+    padding: 15px 15px;
+}
+
+.footnote .company {
+    width: 350px;
+    height: auto;
+    padding: 15px 15px;
+}
+
+.footnote .new {
+    width: 350px;
+    height: auto;
+    padding: 15px 15px;
+}
+
+.footnote .new p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.footnote .bar {
+    padding: 15px 15px;
+}
+
+.footnote .bar button {
+    border: 2px solid hsl(40.71, 87.5%, 87.45%);
+    border-radius: 3px;
+    width: 200px;
+    margin-top: 15px;
+    background-color: hsl(40.71, 87.5%, 87.45%);
+    color: black;
+    font-weight: 100;
+}
+
+.footnote .bar button:hover {
+    background-color: white;
+    color: hsl(160.48, 55.26%, 55.29%);
+    transition: 0.5s;
+}
+
+.footnote .info li,
+.company li {
+    list-style: none;
+    padding: 9px 9px;
+}
+
+.footnote .info a,
+.company a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.footnote .info a:hover,
+.company a:hover {
+    text-decoration: underline;
+    text-decoration-color: hsl(40.71, 87.5%, 87.45%);
+}
+
+.footnote .log {
+    padding: 15px 15px;
+}
+
+.footnote .log button a {
+    text-decoration: none;
+    color: hsl(160.48, 55.26%, 55.29%);
+}
+
+.footnote .log button {
+    background-color: hsl(40.71, 87.5%, 87.45%);
+    color: hsl(160.48, 55.26%, 55.29%);
+    border: 2px solid hsl(160.48, 55.26%, 55.29%);
+    width: 100px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 200;
+    border-radius: 16px;
+    margin-right: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.backtwo img {
+    width: 100%;
+    height: 747px;
+    position: absolute;
+    z-index: -1
+}
+
+.form {
+    width: 100%;
+    height: 595px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 20px;
+}
+
+.form .login {
+    width: 45%;
+    height: 500px;
+    padding: 75px 45px;
+    text-align: center;
+}
+
+.form .login h3 {
+    color: hsl(160.48, 55.26%, 55.29%);
+    font-size: 28PX;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: hsl(40.71, 87.5%, 87.45%);
+    text-decoration-style: double;
+}
+
+.form .login p {
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: 350;
+    color: hsl(40.71, 87.5%, 87.45%);
+}
+
+.login p input {
+    border: 2px solid hsl(160.48, 55.26%, 55.29%);
+    width: 225px;
+    height: 25px;
+}
+
+.login p input:placeholder-shown {
+    text-align: center;
+    color: gray;
+}
+
+.form .login button {
+    background-color: hsl(40.71, 87.5%, 87.45%);
+    color: hsl(160.48, 55.26%, 55.29%);
+    border: 2px solid hsl(160.48, 55.26%, 55.29%);
+    width: 100px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 16px;
+    margin-right: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.form .login button a {
+    text-decoration: none;
+    color: hsl(160.48, 55.26%, 55.29%);
+}
+
+
+.backthree img {
+    width: 100%;
+    height: 747px;
+    position: absolute;
+    z-index: -1
+}
+
+.create {
+    width: 70%;
+    height: 500px;
+    padding: 45px 45px;
+    text-align: center;
+    margin-left: 250px;
+}
+
+.create h3 {
+    font-size: 35px;
+    font-weight: 600;
+    color: hsl(160.48, 55.26%, 55.29%)
+}
+
+.create i {
+    font-size: 250px;
+    font-weight: lighter;
+    color: hsl(40.71, 87.5%, 87.45%);
+}
+
+.backfour img {
+    width: 100%;
+    height: 2500px;
+    position: absolute;
+    z-index: -1
+}
+
+.mini {
+    width: 100%;
+    height: 2000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 50px;
+}
+
+.mini .box {
+    margin: 15px 15px 15px 15px;
+}
+
+.head {
+    width: 100%;
+    height: auto;
+    padding: 45px 45px;
+    text-align: center;
+}
+
+.head h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: hsl(160.48, 55.26%, 55.29%);
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: hsl(40.71, 87.5%, 87.45%);
+}
